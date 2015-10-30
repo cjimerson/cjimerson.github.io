@@ -1,0 +1,22 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,500,700,900);
+h1 {
+	color: #453633;
+	font-family: 'Raleway 900', sans-serif;
+	text-transform: uppercase;
+	line-height:10px;
+}
+
+h3 {
+	color: #7A605B;
+	font-family: 'Raleway 200', sans-serif;
+	text-transform: uppercase;
+	line-height:10px;
+
+}
+p {
+	font-family: 'Raleway 200', sans-serif;
+	line-height:1.5em;
+	width: 750px;
+
+}
+
