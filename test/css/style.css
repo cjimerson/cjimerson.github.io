@@ -1,28 +1,30 @@
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600,700);
 
-
+.logo {
+  width: 25%;
+}
 
 .hero-img{
   width: 100%;
 }
 
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: lime;
+}
 header {
 	background-color: #FFED74;
 	border: 1px black solid;
 	padding:20px;
 }
 
-ul {
-  float: right;
-}
-
-nav{
+nav {
 	background-color: #E8C66A;
 	border: 1px black solid;
 	padding:20px;
 }
-
-
 
 aside{
 	background-color: #FFC675;
@@ -30,6 +32,14 @@ aside{
 	padding:20px;
 }
 
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
 
 article {
 	background-color: #E89C6C;
@@ -73,31 +83,18 @@ p {
 }
 
 
-
-
 footer {
-  line-height:3em;
 	background-color: #FF957E;
 	border: 1px black solid;
 	padding:20px;
 }
 
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-
-/*section {
+section {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	padding:20px;
-}*/
-/*h1 {
+}
+h1 {
 	color: #453633;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 14px
@@ -111,7 +108,7 @@ h3 {
 	text-transform: uppercase;
 	line-height:10px;
 
-}*/
+}
 
 
 
@@ -134,10 +131,6 @@ ul {
 
 
 
-/*body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
-p, p a { font-size: 12px;text-align: center; color: #888; }*/
-
-
-
-
-
+/* demo styles */
+body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
+p, p a { font-size: 12px;text-align: center; color: #888; }
