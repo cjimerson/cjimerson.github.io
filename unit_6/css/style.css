@@ -1,143 +1,40 @@
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900,300,400italic,700,700italic);
 
 
-
-.hero-img{
-  width: 100%;
+.logo {
+	margin: 20px;
 }
 
-header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding:20px;
+
+body {
+	background-color: white;
 }
 
-ul {
-  float: right;
-}
-
-nav{
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding:20px;
+nav {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: .8em;
+	list-style-type: none; 
+	float: right;
 }
 
 
 
-aside{
-	background-color: #FFC675;
-	border: 1px black solid;
-	padding:20px;
-}
-
-
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding:20px;
-}
-
-
-
-
-p {
-  color: 000000;
-  font-family: 'Josefin Sans', sans-serif;
-  line-height:1.5em;
-  width: 750px;
-  text-align: left;
-  color: 000000;
- }
-
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-#left {
-    background-color: #E582A2;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
-
-#right {
-    background-color: #E55B88;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;
-
-}
-
-
-
-
-footer {
-  line-height:3em;
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding:20px;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-
-/*section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding:20px;
-}*/
-/*h1 {
-	color: #453633;
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 14px
-	text-transform: uppercase;
+li {
+	display: inline-block;
+	margin: 30px, 200px, 30px, 30px;
+	padding: 15px;
 	
 }
 
-h3 {
-	color: #7A605B;
-	font-family: 'Josefin Sans', sans-serif;
-	text-transform: uppercase;
-	line-height:10px;
-
-}*/
 
 
+h1, p {
+	
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
 
-ul {
-	font-family: 'Josefin Sans', sans-serif;
-	font-size: 2em;
-	text-transform: uppercase;
-	line-height: 2em;
-  margin: 2em;
+	color: black;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-/*body { margin-top: 3em; background: #eee; color: #555; font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; }
-p, p a { font-size: 12px;text-align: center; color: #888; }*/
-
-
-
-
 
