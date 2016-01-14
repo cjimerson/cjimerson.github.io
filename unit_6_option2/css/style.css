@@ -1,9 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900,300,400italic,700,700italic);
 
-/*.wrapper {
+.wrapper {
 	width: 100%;
 	border: 1px red solid;
-}*/
+}
 body {
 	background-color: white;
 }
