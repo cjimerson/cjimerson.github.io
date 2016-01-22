@@ -1,11 +1,80 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,100,900,300,400italic,700,700italic);
 
-.wrapper {
-	width: 100%;
-	border: 1px red solid;
-}
+
 body {
 	background-color: white;
+}
+
+header {
+	/*background-color: #ffb7cf;*/
+	/*border: 1px black solid;*/
+	padding: 40px 0px 25px 100px;
+}
+
+nav {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 100;
+	font-size: 2.5em;
+	list-style-type: none;
+	letter-spacing: 3px; 
+	float: right;
+	display: inline-block;
+	margin: 40px 100px 60px 0px;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 400;
+  	font-size: 6em;
+  	line-height: 120%;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+  	font-weight: 100;
+  	font-size: 3em;
+  	line-height: 150%;
+}
+
+hr {
+	margin-top: 50px;
+}
+#cta:hover {
+	background-color: #aaaaaa;
+
+}
+
+
+
+#cta {
+	border: 1px #00afec solid;
+	padding: 35px 60px 30px 60px;
+	margin: 0px 50px 0px 0px;
+	color: #00afec;
+	/*border: #00afec;*/
+}
+
+
+#proto {
+	width: 40%;
+	/*border: 1px black solid;*/
+	float: right;
+	padding-right: 5%;
+	
+}
+
+#logo {
+	width: 400px;
+	background-color: white;
+	
 }
 
 .clearfix:after {
@@ -17,114 +86,64 @@ body {
     visibility: hidden;
 }
 
-header {
-	/*background-color: #ffb7cf;*/
-	/*border: 1px black solid;*/
-	padding: 40px 0px 25px 100px;
-	
-}
-
-.logo {
-	width: 100%;
-	/*border: 1px black solid;*/
-	/*margin: auto;*/
-	padding-top: 8px;
-}
-
-nav {
-	background-color: white;
-	font-family: 'Roboto', sans-serif;
-	font-weight: 100;
-	font-size: 2.5em;
-	list-style-type: none;
-	letter-spacing: 3px; 
-	float: right;
-	padding-right: 80px;
-}
-
-a {
-	text-decoration: none;
-	display: block;
-}
-
-li {
-	display: inline-block;
-	padding: 60px;
-	
-}
-
-li:hover {
-	background-color: #aaaaaa;
-}
-
-#cta {
-	border: 1px black solid;
-	padding: 35px 60px 30px 60px;
-}
-
-
 /*#intro {
-    position: relative;
-    background: url(/assets/hero.jpg);
-    width: 100%;
-    border: 1px black solid;
-    text-align: right;
+	position: relative;
 }*/
 
-#intro {
-	position: relative;
-}
-
 .outer {
-	background: url(/assets/hero.jpg);
+    border: 1px orange solid;
+
+    background: url(../assets/hero.jpg);
     background-size: cover;
-    /*background-repeat: no-repeat;
-    background-position: static;*/
-    clear: both;
-    /*padding: 5%;*/
-    /*height: 85vh;*/
-   /* margin: 0;
-    padding: 0;*/
-    border: 1px black solid;
+    /*background-color: #ffb7cf;*/
+   	/*padding:150px 5%;*/
+   	padding:150px 8%;
+  	background-repeat: no-repeat;
+    
+    
+
+	
 }
 
-#hero-img{
-  	width: 100%; 	
-}
+
 
 .primary {
-    position: absolute;
+    /*position: absolute;
     top: 25%;
-    left: 150px;
-    clear: both;
-    display: block;
-    width: 40%;
-  	font-family: 'Roboto', sans-serif;
+    left: 150px;*/
+    
+   /* display: block;*/
+    float: left;
+    /*clear: both;*/
+    width: 45%;
+    padding: 4% 20px 0 0;
+
+
+  	/*font-family: 'Roboto', sans-serif;
   	font-weight: 100;
-  	font-size: 8em;
-  	border: 1px black solid;
+  	font-size: 8em;*/
+  	/*border: 1px black solid;*/
     color: #fff;
+    text-align: right;
 }
 
-p {
+#intro {
+	/*background-color: #ffb7cf;*/
+	border: 1px black solid;
+}
+
+#lead-in {
 	font-family: 'Roboto', sans-serif;
   	font-weight: 100;
-  	font-size: .5em;
-  	line-height: 150%;
-
-
+  	font-size: 7em;
+  	color: #1977b9;
+  	line-height: 120%;
+  	letter-spacing: 4px;
+  	text-align: center;
+  	text-transform: uppercase;
+  	padding-top: 4%;
 }
 
-#secondary {
-	display: block;
-}
-
-#proto {
-	position: absolute;
-	top: 15%;
-	right: 150px; 
-	width: 40%;
-	/*background-color: black;*/
-	border: 1px black solid;
-	
+#steps {
+	padding-top: 10%;
 }

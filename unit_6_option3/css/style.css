@@ -1,0 +1,375 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,200);
+
+
+body {
+/*	background-color: white;*/
+}
+
+
+header {
+  /*border: 1px black solid;*/
+	padding: 10px 40px 10px 30px;
+}
+
+
+nav {
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 300;
+	font-size: .7em;
+	list-style-type: none;
+	letter-spacing: 3px; 
+	float: right;
+}
+
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+
+h1 {
+	  font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 3em;
+  	line-height: 130%;
+    color: white;
+    letter-spacing: -1px;
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 120%;
+}
+
+
+h3 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.85em;
+    line-height: 120%;
+    letter-spacing: -.2px;
+    text-align: center;
+}
+
+
+p {
+    font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 2em;
+  	line-height: 150%;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+
+#logo {
+    width: 100px;
+    float:left;
+    display: block;
+    padding-top: 4px;
+}
+
+
+#cta {
+    border: 1px #00afec solid;
+    padding: 10px;
+    margin: 0px 30px 0px 0px;
+    color: #00afec;
+    display: inline-block;
+}
+
+
+#cta:hover {
+    background-color: #aaaaaa;
+}
+
+
+#intro {
+    background-color: #00afec;
+    text-align: center;
+/*  display: block;*/
+    padding: 40px 10px 250px 10px;
+    clear: both;
+}
+
+
+.x {
+    float: left;
+}
+
+
+#macbook-gg {
+    /*width: 70%;*/
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+#how {
+  text-align: center;
+}
+
+
+#lead-in {
+  /*font-family: 'Work Sans', sans-serif;
+    font-weight: 100;
+    font-size: 7em;
+    color: #1977b9;
+    line-height: 120%;
+    letter-spacing: 4px;
+    text-align: center;
+    text-transform: uppercase;*/
+    padding-top: 14%;
+}
+
+
+#howitworks{
+  border: 1px black solid;
+  padding: 10px;
+  margin-top: 15px;
+  color: black;
+  display: inline-block;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: .7em;
+  list-style-type: none;
+  letter-spacing: 3px; 
+}
+
+
+#griefhealing {
+  display: inline;
+  background-color: green;
+}
+
+
+#section1 {
+   /*border: 1px black solid;*/
+   margin: 50px 80px;
+}
+
+
+.infoblock1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 150%;
+    width: 50%;
+    float:left;
+    margin-top: 25px;
+}
+
+
+.spacer {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+
+#lady {
+  float: right;
+}
+
+
+.wrapper {
+    /*border: 1px blue solid;*/
+    margin: 50px 80px;
+}
+
+
+#section2 {
+    /*border: 5px red solid;*/
+    width: 50%;
+    float: left;
+}
+
+
+#journaling { 
+  display: inline-block;
+  /*border: 1px yellow solid;*/
+}
+
+
+#insertquotable {
+  /*border: 3px orange solid;*/
+  display: inline-block;
+  width: 45%;
+  float: right;
+}
+
+
+.infoblock2 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 150%;
+    /*border: 1px purple solid;*/
+}
+
+
+.y {
+  margin: auto;
+  width: 80%;
+  padding-right: 20px;
+  /*border: 1px black solid;*/
+}
+
+
+#orourke {
+  /*border: 1px black solid;*/
+}
+
+#letushelp {
+  /*border: 1px black solid;*/
+  margin: 50px 80px;
+}
+
+
+#section3 {
+    /*margin: 50px 80px;*/
+    float: right;
+    /*border: 1px red solid;*/
+    width: 45%;
+
+}
+
+
+#infoblock3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 150%;
+}
+
+
+#insertquotable2 {
+  /*border: 1px green solid;*/
+  float: left;
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+
+}
+
+
+#howwedo {
+  /*border: 1px black solid;*/
+  background-color: #9ddcf9;
+  padding: .5px 0;
+  display: block;
+  /*clear: both;*/
+
+}
+
+
+#wrapper2 {
+  /*border: 1px orange solid;*/
+  margin: 50px 80px;
+}
+
+#section4 {
+  /*border: 1px green solid;*/
+  float: left;
+  width: 45%;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+#infoblock4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 270%;
+    /*border: 1px blue solid;*/
+}
+
+
+.spacer2 {
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 3em;
+  line-height: 100%;
+}
+
+#wrapper3 {
+  float: right;
+  width: 45%;
+  
+  padding-top: 10px;
+  /*border: 1px red solid;*/
+}
+
+
+.z {
+  float: left;
+  width: 60%;
+  /*border: 3px white solid;*/
+  padding-top: 30px;
+}
+
+
+#icons {
+  background-color: #14416e;
+}
+
+
+.section5 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 700;
+  font-size: .45em;
+  text-align: center;
+  color: #00afec; 
+
+}
+
+
+.row1 {
+  border: 1px red solid;
+  float: left;
+  display: block;
+
+} 
+
+
+.row2 {
+  border: 1px red solid;
+  float: left;
+  display: block;
+
+} 
+
+
+.row3 {
+  border: 1px red solid;
+  float: left;
+  display: block;
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
