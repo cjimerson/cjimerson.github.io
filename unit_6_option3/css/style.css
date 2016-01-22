@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,200);
-
+* { margin:0; padding:0; box-sizing:border-box; }
 
 body {
 /*	background-color: white;*/
@@ -64,7 +64,16 @@ p {
   	font-size: 2em;
   	line-height: 150%;
 }
-
+ul {
+	list-style-type:none;
+}
+li {
+	background:url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Check_mark_23x20_02.svg/1000px-Check_mark_23x20_02.svg.png) no-repeat;
+	background-size:contain;
+	color:#fff;
+	margin-bottom:1em;
+	padding:1em;
+}
 .clearfix:after {
     clear: both;
     content: ".";
@@ -100,20 +109,14 @@ p {
 #intro {
     background-color: #00afec;
     text-align: center;
-/*  display: block;*/
     padding: 40px 10px 250px 10px;
-    clear: both;
 }
-
-
 .x {
     float: left;
+    width:100%;
 }
-
-
 #macbook-gg {
-    /*width: 70%;*/
-    margin: auto;
+    width:50%;
     padding-top: 30px;
 }
 
@@ -185,8 +188,8 @@ p {
 
 
 .wrapper {
-    /*border: 1px blue solid;*/
-    margin: 50px 80px;
+    max-width:75em;
+    margin:auto;
 }
 
 
