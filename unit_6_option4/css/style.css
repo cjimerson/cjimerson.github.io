@@ -41,10 +41,11 @@ h2 {
     color: black;
     font-family: 'Work Sans', sans-serif;
     font-weight: 300;
-    font-size: 1.85em;
+    font-size: 2em;
     line-height: 120%;
     letter-spacing: -.2px;
-    /*text-align: center;*/
+    text-align: center;
+    display: block;
 }
 h3 {
     color: white;
@@ -187,7 +188,7 @@ hr {
   padding: 2em 0;
 }
 #how {
-  padding: 1.5em 0;
+  padding: 1.5em 0 3em 0;
 }
 #orourke {
     width: 80%;
@@ -232,7 +233,6 @@ hr {
     /*padding-bottom: 10em;*/
     padding: 1.4em 1em 8em 0;
     /*text-align: center;*/
-  
     /*border: 3px orange solid;*/
 }
 .content {
@@ -242,7 +242,6 @@ hr {
     width: 10em;
     height: 12em;
     margin: 1.5em;
-
 }
 .pic {
     width: 70%;
@@ -262,18 +261,29 @@ hr {
     line-height: 130%;
     color: #00afec;
 }
-
 #all-devices {
-  display: block;
-  
-  width: 100%
+     display: block;
+     width: 100%
 }
 #devices {
-float: left;
-  width:95%;
-  display: inline-block;
-  /*clear: both;*/
-  /*padding-top: 1.5em;*/
+    float: left;
+    width:95%;
+    display: inline-block;
+    /*clear: both;*/
+    /*padding-top: 1.5em;*/
+}
+#testimonials {
+    margin: auto;
+   /* border: 1px red solid;*/
+    width: 70%;
+    clear: both;
+    margin-top: 30em;
 
 }
 
+#testimony {
+    width: 100%;
+    display: block;
+    margin: auto;
+    
+}
