@@ -9,7 +9,7 @@ body {
 header {
   /*border: 1px black solid;*/
 	/*padding: 10px 40px 10px 30px;*/
-  padding: 1em 4em 1em 3em;
+    padding: 1em 4em 1em 3em;
 }
 
 
@@ -19,13 +19,14 @@ nav {
 
 
 a {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
-  font-size: .7em;
-  list-style-type: none;
-  letter-spacing: .2em; 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .7em;
+    list-style-type: none;
+    letter-spacing: .2em; 
 	text-decoration: none;
 	color: black;
+    float: left;
 }
 
 
@@ -113,7 +114,7 @@ hr {
 }
 #logo {
     width: 10em;
-    float:left;
+    
     display: block;
     padding-top: .4em;
 }
@@ -158,6 +159,7 @@ hr {
     border: 1px black solid;
     color: black;
     margin-top: 2em;
+    
 }
 #what {
     margin-top: 6em;
