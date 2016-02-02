@@ -4,8 +4,6 @@
 body {
 /*	background-color: white;*/
 }
-
-
 header {
   /*border: 1px black solid;*/
 	/*padding: 10px 40px 10px 30px;*/
@@ -122,42 +120,69 @@ hr {
 }
 #losing {
     text-align: center;
-    border: 1px red solid;
+   /* border: 1px red solid;*/
 }
 #greeting-pic img{    
     position: absolute;
+    left: 24.5%;
     float: none;
     padding-top: 2em;
     width: 50%;
-    border: 1px green solid;
+   /* border: 1px green solid;*/
 }
+
 #welcome-msg {
     text-align: center;
-    padding-top: 13em;
-    padding-bottom: 5em;  
+    padding-top: 11em;
+    padding-bottom: 5em;
+    margin: auto;  
 }
 .wrapper {
   width: 960px;
   margin: auto;
-  border: 1px yellow solid;
+  /*border: 1px yellow solid;*/
 }
-#how-button {
+.black-button {
     border: 1px black solid;
+    padding: 10px;
+    text-transform: uppercase; 
+    margin: 1.5em auto;
     color: black;
+    display: block; 
     float: none;
-    text-transform: uppercase;   
+    width: 180px; 
 }
 .column-1 {
     float: left;
-    width: 50%;
+    width: 48%;
 }
 .column-2 {
     float: right;
-    width: 49%;
+    width: 48%;
+    
 }
-.column-pic {
+
+.article {
+    margin: 1em 0 .5em 0;
+    padding-bottom: 1em;
+    border-bottom:1px black solid;
+}
+
+section img {
     width: 100%;
     display: block;
+    
+}
+#orourke {
+    width: 80%;
+    margin: auto;
+}
+#million {
+    width: 100%;
+    margin: auto;
+}
+#no-border {
+    border-bottom: none;
 }
 #process {
     background-color: #9ddcf9;

@@ -4,21 +4,22 @@
 	<meta charset="utf-8">
 	<title>Good Grief</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 	<header>
-		<div class="wrapper clearfix">
+		<div class="clearfix">
 			<a href="index.html"> <img src="assets/logo.png" alt="home-page" id="logo"></a>
 			<nav>
-				<a href="trynow.html" class="cta-button-style">try now</a>
-				<a href="login.html" id="login-button">login/register</a>
+				<a href="login.html" class="black-button" id="login-button">login/register</a>
+				<a href="https://itunes.apple.com/us/genre/ios/id36?mt=8"> <img src="assets/app-store-badge.svg" alt="Free download at Apple." id="badge"></a> 	
 			</nav>
 		</div>
 	</header>
 	
-<!-- I CANNOT FIGURE THIS OUT! -->
+<!-- SPLASH SECTION START -->
 	<section id="splash">
-		<div class="wrapper">
+		<div>
 			<div id="losing">
 				<h1> Losing a loved one is hard.</h1>
 				<h4>Let us help make your path to acceptance a little easier.</h4>
@@ -28,64 +29,75 @@
 			</div>
 		</div>
 	</section>
-<!-- THIS IS WHERE IT ENDS -->
-
-	<section id="welcome-msg">
-			<h3>Welcome to Good Grief. A full-service digital grieving journal.</h3>
-			<a href="#process" class="black-button">see how we work</a>
+	<section class="clearfix">
+			<h3 id="welcome-msg">Welcome to Good Grief. A full-service digital grieving journal.</h3>
+			<a href="#how-we-work-intro" class="black-button" id="we-work-button">see how we work</a>
 	</section>
-
-	<div class="wrapper">
-		<section class="article clearfix">
-				<div class="column-1 ">
+<!-- SPLASH SECTION END -->
+<!-- ARTICLE SECTION START -->
+	<div>
+		<section class="article" id="first-block">
+			<div class="wrapper clearfix">
+				<div class="column-1" id="column-1-text">
 					<h5>grief &amp; healing</h5>
-					<p>Loss is a part of life, and everyone will experience it. The loss may be anticipated, or it may hit your blind-side, and knock the wind out of you. Regardless of your experience, we all must grieve at some point in our lives. There is no one way to grieve, nor is there a time-limit on how long one person will. It’s emotionally taxing, and difficult. One may find it easier to suppress their feelings altogether.However, you must deal with your loss in order to move forward in life, and not anchor yourself in the past.</p>
+					<p>Loss is a part of life, and everyone will experience it. The loss may be anticipated, or it may hit your blind-side, and knock the wind out of you. Regardless of your experience, we all must grieve at some point in our lives. There is no one way to grieve, nor is there a time-limit on how long one person will. It’s emotionally taxing, and difficult. One may find it easier to suppress their feelings altogether. However, you must deal with your loss in order to move forward in life, and not anchor yourself in the past.</p>
 				</div>
 				<div class="column-2">
 					<img src="assets/grieving-lady.jpg" alt="Distressed lady with head in hands.">
 				</div>	
-		</section>
-		<section class="article clearfix">
-			<div class="column-1">
-				<img src="assets/diary.jpg" alt="An open journal with pen.">
-			</div>
-			<div class="column-2 clearfix">
-				<h5>benefits of journaling</h5>
-				<p>Writing is a form of emotional therapy. Whether it be for future reflection, or for closure, this portal provides a means of chronicling thoughts, and recording stories, by sending notes from the heart. It’s your personal space. To say whatever you need to say. However you want to say it.</p> 
-				<img src="assets/orourke.svg" alt="Quote-Writing is how I make sense of the world." id="orourke">
 			</div>
 		</section>
-		<section class="article clearfix" id="no-border">
-			<div class="column-1">
-				<h5>let us help you</h5>
-				<p>Grieving is both individual &amp; collaborative. Through journaling and recording everyday experiences and archiving your thoughts, following the loss of a loved one.The service will help people connect user with others by sharing journal entries and stories via posts, and message boards, and offering live chats with volunteer ‘grief coaches.’</p>
-				<img src="assets/million.svg" alt="Quote-8 million Americans lost loved one's last year." id="million">
-			</div>
-			<div class="column-2">
-				<img src="assets/walk.jpg" alt="Feet walking along a path.">
+		<section class="article" id="second-block">
+				<div class="wrapper clearfix">
+					<div class="column-1">
+						<img src="assets/diary.jpg" alt="An open journal with pen.">
+					</div>
+					<div class="column-2 clearfix" id="column-2-text">
+						<h5>benefits of journaling</h5>
+						<p>Writing is a form of emotional therapy. Whether it be for future reflection, or for closure, this portal provides a means of chronicling thoughts, and recording stories, by sending notes from the heart. It’s your personal space. To say whatever you need to say. However you want to say it.</p>
+						<p class="quote">&ldquo;Writing has always been how<br>I make sense of the world.&rdquo;<br><span class="credit">–M. ORourke, author</span></p>
+					</div>
+				</div>
+		</section>
+		<section class="article clearfix" id="third-block">
+			<div class="wrapper clearfix">
+				<div class="column-1" id="column-3-text">
+					<h5>let us help you</h5>
+					<p>Grieving is both individual &amp; collaborative. Through journaling and recording everyday experiences and archiving your thoughts, following the loss of a loved one. The service will help people connect user with others by sharing journal entries and stories via posts, and message boards, and offering live chats with volunteer ‘grief coaches.’</p>
+					<p class="quote">&ldquo;8 million Americans suffered the loss of an immediate family member last year.&rdquo;<br><span class="credit">–National Mental Health Association</span></p>
+				</div>
+				<div class="column-2">
+					<img src="assets/walk.jpg" alt="Feet walking along a path.">
+				</div>
 			</div>
 		</section>
-	</div>
+	<!-- </div> -->
+<!-- ARTICLE SECTION STOP -->
 <!-- BEGINNING OF PROCESS SECTION -->
-	<section id="process">
-		<div class="wrapper clearfix">
-			<img src="assets/chart.png" alt="Good Grief process chart." id="process-chart">
-			<div id="bullet-points">
-				<h2>how we work</h2>
-				<h4 id="subtitle">Good Grief is a grieving program designed to be there when you need us most!</h4>
-				<ul>
-					<li>Multi-platform online resource center</li>
-					<li>Downloadable journaling app</li>
-					<li>24/7 counseling services</li>
-					<li>5 stages mood tracking technology</li>
-				</ul>
-				<img src="assets/andtheresmore.png" alt="and theres more..." id="more-script">
+	<section id="how-we-work-intro">
+		<div id="steps" class="clearfix">
+			<img src="assets/how-we-work-3.svg" alt="How We Work." id="we-work-pic">
+			<div id="all-devices">
+				<img src="assets/device-spread.png" alt="multiple device platforms" id="devices">
 			</div>
+	</section>
+	<section id="the-process-intro">
+		<div id="process-breakdown" class="clearfix wrapper">	
+				<div id="bullet-points">
+					<h3 id="subtitle">Good Grief is a grieving program designed to be there when you<br>need us most!</h3>
+					<ul>
+						<li>Multi-platform online resource center</li>
+						<li>Downloadable journaling app</li>
+						<li>24/7 counseling services</li>
+						<li>5 stages mood tracking technology</li>
+					</ul>
+				</div>
+				<img src="assets/chart.svg" alt="Good Grief process chart." id="process-chart">
 		</div>
 	</section>
 <!-- BEGINNING OF FEATURES SECTION -->
 	<section id="features" >
-		<div class="wrapper2 clearfix">
+		<div class="clearfix wrapper" id="iconography">
 			<div class="content">
 				<img src="assets/mult-entries.png" alt="multiple entry icon" class="pic">
 				<div class="title">multiple journal<br>entry methods</div>
@@ -162,16 +174,42 @@
 				<div class="desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</div>
 			</div>
 		</div>
-<!-- THIS IMAGE SHOULD OVERLAP NAVY AREA AND BREAK OUT TO TESTIMONIALS SECTION -->
-		<div id="all-devices">
-			<img src="assets/devices.png" alt="multiple device platforms" id="devices">
-		</div>
+
 	</section>
 <!-- BEGINNING OF TESTIMONIALS SECTION -->
 	<section id="testimonials" class="clearfix">
-			<img src="assets/testimonial.png" alt="A user testimony." id="testimony">
+			<p class="quote">&ldquo;I felt like no one truly understood my feelings after the loss of my father. Good Grief's grieving system helped me through every up and down. Their team of experts are super supportive, and delivered light at a very dark time,&rdquo;<span id="test-credit">  –Bill Witherspoon, Good Grief member Since 2015.</span></p>
+			<a href="trynow.html" class="blue-button-style">try good grief today!</a>
 	</section>
 
+	<footer>
+		<div class="footer-content clearfix">
+			<div id="footer-row1" class="clearfix">
+				<p>&copy;2016 Good Grief, LLC.</p>
+			</div>
+			<div id="footer-row3">
+				<a href="#splash"><img src="assets/nib-white.png" alt="GG secondary logo" id="secondary"></a>
+			</div>
+			<div id="footer-row2">
+	      		<a href="blog.html" class="footer-nav">Blog</a>
+				<a href="terms.html" class="footer-nav">• Terms</a>
+	      		<a href="privacy.html" class="footer-nav">• Privacy</a>
+	      		<a href="contact.html"class="footer-nav">• Contact</a>
+	  		</div>
+		</div>
+</footer>
+
+
+
+<!-- /*DONT MIND THIS PRIVATE EXERCISE*/ -->
+<!-- <div class="blocks">
+	<div class="greeting" id="blue">hello</div>
+
+<div id="special">
+	<div class="greeting" id="red">bonjour</div>
+	<div class="greeting" id="yellow">hola</div>
+</div> -->
+<!-- /*DONT MIND THIS PRIVATE EXERCISE*/ -->
 
 
 </body>
@@ -202,10 +240,4 @@
 					
 				
 				
-					
 
-
-
-</body>
-
-</html>
