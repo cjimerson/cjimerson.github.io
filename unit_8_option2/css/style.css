@@ -1,0 +1,887 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,200);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #ffffff;
+    font-size: 18.5px;
+}
+header {
+    background-color: #ffffff;
+    padding: 1em 0;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+h1 {
+	font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 3.1em;
+  	line-height: 130%;
+    color: #ffffff;
+    letter-spacing: -.03em;
+}
+h2 {
+    color: #14416e;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 120%;
+    letter-spacing: -.2px;
+}
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 120%;
+    color: white;
+}
+h5 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: .35em;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+nav {
+    float: right;
+    width: 20em;
+}
+a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;   
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 1em;
+  	line-height: 150%;
+}
+ul {
+    list-style-type:none;
+    padding-top: 1em;
+    color: #14416e;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: .20%;
+}
+li {   
+    background:url(../assets/checkmark.svg) no-repeat;
+    background-size:contain;
+    margin-bottom:.7em;
+    padding:1em;
+}
+footer  {
+    background-color: #14416e;
+    padding: .8em 0;
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.wrapper {
+    width: 73.5%;
+    margin: auto;
+}
+#hamburger-icon {
+    display: none; 
+}
+#hamburger {
+    width: 3em;
+    float: right;
+    display: inline-block;  
+}
+#logo {
+    width: 7em;
+    padding-top: .5%;
+    display: inline-block;
+}
+.blue-button-style {
+    border: 1px #00afec solid;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: .7em;
+    list-style-type: none;
+    letter-spacing: .2em;
+    margin: 4em auto;
+    width: 20em;
+    color: #00afec;
+    display: block;    
+}
+.blue-button-style:hover {
+    background-color: rgb(219, 245, 252);
+}
+#splash {
+    background-color: #00afec;
+    padding: 1.4em 0 20em 0;
+}
+#greeting-pic img{    
+    float: none;
+    padding-top: 2%;
+    width: 57%;
+    min-width: 502px;  
+}
+#intro {
+    position: absolute;
+    left: 11.5%;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+#welcome-msg { 
+    padding-top: 1%;
+}
+#we-work-button {
+    margin: 2em auto 3.5em auto;
+    width: 17em;
+    text-align: center;
+}
+.black-button {
+    border: 1px black solid;
+    padding: 10px;
+    text-transform: uppercase; 
+    font-weight: 300;
+    font-size: .7em;
+    display: block;
+    letter-spacing: .2em;
+    color: black; 
+}
+.black-button:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+#badge {
+    display: inline-block;
+    float: right;
+}
+#login-button {
+    border: none;
+    float:left;
+    margin-top: .5em;
+}
+#first-block {
+    background-color: rgb(211, 238, 247);
+    padding: 4% 0;
+    margin-top: 22%;
+}
+#second-block {
+    background-color: rgb(2139, 226, 225);
+    padding: 4% 0;
+}
+#third-block {
+    background-color: rgb(255, 252, 222);
+    padding: 4% 0;
+}
+.column-1 {
+    float: left;
+    width: 48%;
+}
+#column-1-text {
+    padding-top: .25em;
+}
+.column-2 {
+    float: right;
+    width: 49%;   
+}
+#column-2-text {
+    padding-top: 0em;
+}
+#column-3-text {
+    padding-top: 0em;
+}
+.column-1 img {
+    padding: none;
+    float: left;
+    width: 100%;
+}
+.column-2 img {
+    float: right;
+    width: 100%;
+}
+.credit {
+    font-size: .4em;
+    letter-spacing: normal;
+    float: left;
+    line-height: 150%;
+}
+#test-credit {
+    font-size: .4em;
+    letter-spacing: normal;   
+}
+#we-work-pic {
+    float: left;
+    width: 41%;
+    padding-left: 7em;
+    display: block;
+    padding-top: 3%;
+}
+.quote {
+    font-size: 2em; 
+    line-height: 115%;
+    letter-spacing: -.03em;
+    padding-top: .4em;
+}
+#how-we-work-intro {
+    padding: 1.4em 0 11em 0;
+}
+#subtitle {
+    line-height: 150%;
+    font-size: 1.8em;
+    letter-spacing: -.02em;
+    color: #14416e;
+    text-align: left;
+}
+#the-process-intro {
+    background-color: rgb(255, 255, 255);
+    padding: 1.4em 0 2em 5em;
+}
+#process-chart {
+    float: right;
+    width: 24em;
+    min-width: 20em;
+    padding-top: 12em;
+    display: inline-block;
+}
+#bullet-points {
+    color: black;
+    float: left;
+    width: 50%;
+    padding-top: 20%;
+    display: inline-block;
+}
+#more-script {
+    width: 50%;
+    padding-top: 3em;
+    float: right;
+}
+#features {
+    background-color: rgba(0, 0, 0, .05);    
+    padding: 1.4em 1em 2em 0;
+}
+.content {
+    float: left;
+    text-align: center;
+    width: 10em;
+    height: 14em;
+    margin: 2.5%; 
+}
+#iconography {
+    width: 87%;
+    margin: auto;
+}
+.pic {
+    width: 70%; 
+    margin-right: auto;
+}
+.title { 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: .9em;
+    line-height: 130%;
+    color: #14416e;
+    text-transform: uppercase;
+    clear: both;
+}
+.desc {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 130%;
+    color: #14416e;
+}
+#steps {
+    position: absolute;
+}
+#devices {
+    width:98%;
+    margin-top: -7em;
+} 
+#process-breakdown {
+    width: 81.5%;
+    margin: auto;
+    padding-top: 17%;
+}
+#testimonials {
+    margin: auto;
+    width: 64%;
+    clear: both;
+    margin-top: 4em;
+}
+#testimonials p {
+    letter-spacing: normal;
+    line-height: 130%;
+    text-align: center;
+    color: black; 
+}
+#test-credit {
+    color: black;
+    font-size: .4em;
+}
+#footer-row1 {
+    float: left;
+    padding-top: .6em;
+    color: #00afec;
+    font-size: .8em;  
+}
+#footer-row2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .6em;
+    width: 22em;
+    text-align: center; 
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .8em;
+    list-style-type: none;
+}
+.footer-nav {
+    color: #00afec;
+}
+#secondary {
+    width: 1.6em;
+    float: right;
+}
+.footer-content {
+    width: 95%;
+    margin: auto;
+}
+
+/*THIS IS WHERE MY MEDIA QUERIES BEGIN*/
+
+@media screen and (max-width: 1437px) {   
+    #iconography {
+        width: 88%;
+    }
+}
+@media screen and (max-width: 1428px) {   
+    #testimonials {
+        width: 58%;
+    }
+}
+@media screen and (max-width: 1420px) {   
+    #iconography {
+        width: 89%;
+    }
+}
+@media screen and (max-width: 1405px) {   
+    #iconography {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 1389px) {   
+    #iconography {
+        width: 91%;
+    }
+    body {
+        font-size: 17.5px;
+    }
+    .quote {
+        line-height: 115%;
+        letter-spacing: -.03em;
+        /*padding-top: .4em;*/
+    }
+    .column-2 {
+        float: right;
+        width: 50%;   
+    }
+    #intro {
+        left: 10.5%;
+    }
+}
+@media screen and (max-width: 1298px) {   
+    #iconography {
+        margin-left: 10%;
+    }
+     #intro {
+        left: 8.5%;
+    }
+}
+@media screen and (max-width: 1223px) {   
+    body {
+        font-size: 17px;
+    }
+     #intro {
+        left: 6.5%;
+    }
+}
+@media screen and (max-width: 1180px) {   
+    #bullet-points {
+        width: 52%;
+        font-size: 16px;
+    }
+    #process-chart {
+        padding-top: 11em;
+    }
+    #message-wbutton {
+        width: 60%;
+        margin: auto;
+    }
+    #intro {
+        left: 2%;
+    }
+    #first-block {
+        margin-top: 28%;
+    }
+    #message-wbutton {
+        width: 90%;
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 1163px) {   
+    #testimonials {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 1128px) {   
+    #process-chart {
+        width: 22em;
+    }
+    #we-work-pic {
+        margin-bottom: 2%;
+    }
+}
+@media screen and (max-width: 1125px) {   
+    #iconography {
+        margin-left: 9%;
+    }
+}
+@media screen and (max-width: 1097px) {   
+    #message-wbutton {
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1077px) {   
+    #bullet-points {
+        font-size: 15.5px;
+    }
+}
+@media screen and (max-width: 1046px) {   
+    #iconography {
+        margin-left: 7.5%;
+    }
+    #bullet-points {
+        width: 54%;
+    }
+    #process-chart {
+        width: 21em;
+    }
+}
+@media screen and (max-width: 1037px) {   
+    #testimonials {
+       width: 60%;
+    }
+    #process-chart {
+        float: none;
+        margin-left: 23%;
+        width: 22em;
+        padding-top: 2%;
+    }
+    #bullet-points {
+        width: 87%;
+        padding-top: 10%;
+    }
+    #subtitle {
+        text-align: center;
+        margin: auto;
+        padding-left: 10%;
+    }
+    ul {
+        margin-left: 27%;
+    }
+    #welcome-msg {
+        font-size: 1.8em;
+    }
+}
+@media screen and (max-width: 1001px) {   
+     #testimonials {
+       width: 75%;
+    }
+}
+@media screen and (max-width: 988px) {   
+     #testimonials {
+       width: 69%;
+    }
+}
+@media screen and (max-width: 979px) {   
+    #iconography {
+        margin-left: 8.5%;
+    }
+    #we-work-pic {
+        margin-bottom: 4%;
+        width: 44%;
+        padding-right: 3%;
+    }
+}
+@media screen and (max-width: 950px) {   
+    #iconography {
+        margin-left: 18.5%;
+    }
+}
+@media screen and (max-width: 937px) {   
+    #iconography {
+        margin-left: 16.5%;
+    }
+    #process-chart {
+        margin-left: 16%;
+    }
+    #message-wbutton {
+        width: 70%;
+    }
+}
+@media screen and (max-width: 914px) {   
+    #process-breakdown {
+        width: 101%;
+    }
+
+@media screen and (max-width: 872px) {   
+    #testimonials {
+       font-size: 14px;
+    }
+    #iconography {
+        margin-left: 14.5%;
+    }
+    #process-chart {
+        margin-left: 14%;
+    }
+    #we-work-pic {
+        margin-bottom: 5%;
+        width: 41%;
+        padding-left: 8%;
+    }
+    #first-block {
+        margin-top: 28%;
+    }
+}
+@media screen and (max-width: 853px) {   
+    #iconography {
+        margin-left: 13.5%;
+    }
+}
+@media screen and (max-width: 835px) {   
+    #first-block {
+        margin-top: 30%;
+    }
+}
+@media screen and (max-width: 813px) {   
+     #testimonials {
+       width: 65%;
+    }
+}
+@media screen and (max-width: 810px) {   
+    #iconography {
+        margin-left: 11.5%;
+    }
+    #process-chart {
+        margin-left: 11%;
+    }
+}
+@media screen and (max-width: 783px) {   
+     #testimonials {
+       width: 67%;
+    }
+}
+@media screen and (max-width: 767px) {   
+    #iconography {
+        margin-left: 9.5%;
+    }
+    #process-chart {
+        margin-left: 15%;
+    }
+    ul {
+        margin-left: 21%;
+    }
+    #subtitle {
+        padding-left: 4%;
+    }
+}
+@media screen and (max-width: 760px) {   
+     #testimonials {
+       width: 68%;
+    }
+    #process-breakdown {
+        width: 102%;
+    }
+}
+@media screen and (max-width: 748px) {   
+     #testimonials {
+       font-size: 13px;
+       width: 66%;
+    }
+    #footer-row2 {
+        /*visibility: hidden;*/
+        display: none;
+    }
+    #we-work-pic {
+        margin-bottom: 8%;
+        width: 43%;
+        padding-left: 7%;
+    }
+    #process-breakdown {
+        width: 103%;
+    }
+    ul {
+        margin-left: 19%;
+    }
+    #subtitle {
+        padding-left: 5%;
+    }
+    #process-chart {
+        margin-left: 13%;
+    }  
+    #first-block {
+        margin-top: 32%;
+    }
+
+}
+@media screen and (max-width: 725px) {   
+    #iconography {
+        margin-left: 7.5%;
+    }
+    #process-chart {
+        margin-left: 14%;
+    }
+}
+@media screen and (max-width: 716px) {   
+    #testimonials {
+       font-size: 12px;
+       width: 75%;
+    }
+    #process-chart {
+        margin-left: 12%;
+    }
+    #subtitle {
+        width: 100%;
+    }
+    ul {
+        margin-left: 18%;
+    }
+}
+@media screen and (max-width: 716px) { 
+    #subtitle {
+        width: 101%;
+    }
+}
+@media screen and (max-width: 697px) {   
+    #iconography {
+        margin-left: 6.5%;
+    }
+    #process-chart {
+        margin-left: 11%;
+    }
+    #subtitle {
+        width: 102%;
+        padding-left: 0%;
+    }
+    ul {
+        margin-left: 15%;
+    }
+    #first-block {
+        margin-top: 35%;
+    }
+    #losing {
+        font-size: .9em;
+    }
+
+}
+@media screen and (max-width: 680px) {   
+    #iconography {
+        margin-left: 19.5%;
+    }
+    #process-chart {
+        margin-left: 9%;
+    }
+    #devices {
+        width: 106%;
+    }
+    #we-work-pic {
+        width: 46%;
+    }
+    #subtitle {
+        padding-left: -5%;
+        width: 89%;
+    }
+    #losing {
+        font-size: .8em;
+    }
+}
+
+
+@media screen and (max-width: 642px) {   
+    #testimonials {
+       width: 78%;
+    }
+    #process-chart {
+        margin-left: 9%;
+    }
+    nav {
+        display: none;
+    }
+    #hamburger-icon {
+        width: 3em;
+        float: right;
+        display: inline-block;
+        
+    }
+}
+@media screen and (max-width: 630px) {   
+    #iconography {
+        margin-left: 17.5%;
+    }
+    #we-work-pic {
+        padding-bottom: 6%;
+    }
+    
+}
+@media screen and (max-width: 617px) {   
+    #testimonials {
+       width: 79%;
+    }
+    #process-chart {
+        margin-left: 7%;
+    }
+}
+@media screen and (max-width: 608px) {   
+    #testimonials {
+       width: 74%;
+    }
+    #process-chart {
+        margin-left: 5%;
+    }
+    ul {
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width: 590px) {   
+    #testimonials {
+       width: 75%;
+    }
+    #process-chart {
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width: 582px) {   
+    #testimonials {
+       width: 69%;
+    }
+}
+@media screen and (max-width: 578px) {   
+    #iconography {
+        margin-left: 14.5%;
+    }
+}
+@media screen and (max-width: 569px) {   
+    #testimonials {
+       font-size: 12px;
+       width: 64%
+    }
+    #process-chart {
+        margin-left: 2%;
+    }
+    ul {
+        margin-left: -3%;
+    }
+}
+@media screen and (max-width: 533px) {   
+    #iconography {
+        margin-left: 14%;
+    }
+    #testimonials {
+        width: 68%;
+    }
+    #process-chart {
+        margin-left: -2%;
+    }
+    #losing {
+        width: 60%;
+        margin: auto;
+    }
+    h1 {
+        line-height: 100%;
+    }
+   
+}
+@media screen and (max-width: 520px) {   
+    #subtitle {
+        margin-left: 0%;
+        font-size: 23px;
+    }
+    ul {
+        margin-left: -5%;
+    }
+}
+
+@media screen and (max-width: 501px) {   
+    #testimonials {
+        display: none;
+    }
+    #process-chart {
+        margin-left: -7%;
+    }
+    #iconography {
+        margin-left: 10%;
+           
+    }
+    ul {
+        margin-left: 1%;
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 479px) {   
+    #iconography {
+        margin-left: 30.5%;
+        width: 69%;    
+    }
+    #process-chart {
+        margin-left: -14%;
+    }
+    #we-work-pic {
+        padding-bottom: 12%;
+        width: 49%;
+    }
+    ul {
+        margin-left: -5%;
+    }
+}
+@media screen and (max-width: 443px) {   
+    #iconography {
+        margin-left: 30.5%;
+        width: 69%;    
+    }
+    #process-chart {
+        margin-left: -20%;
+    }
+    #devices {
+        width: 120%;
+    }
+    #we-work-pic {
+        width: 57%;
+    }
+    ul {
+        margin-left: -14%;
+        font-size: 15px;
+    }
+
+}
+@media screen and (max-width: 375px) {   
+    
+}
+
+
+
+
