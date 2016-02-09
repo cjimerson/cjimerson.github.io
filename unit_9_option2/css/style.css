@@ -1,0 +1,446 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,200);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #ffffff;
+    font-size: 18.5px;
+}
+header {
+    background-color: #ffffff;
+    padding: 1em 0;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+h1 {
+	font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 3.1em;
+  	line-height: 130%;
+    color: #ffffff;
+    letter-spacing: -.03em;
+}
+h2 {
+    color: #14416e;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 120%;
+    letter-spacing: -.2px;
+}
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 120%;
+    color: white;
+}
+h5 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    letter-spacing: .35em;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+nav {
+    float: right;
+    width: 20em;
+}
+a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;   
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 1em;
+  	line-height: 150%;
+}
+ul {
+    list-style-type:none;
+    padding-top: 1em;
+    color: #14416e;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: .20%;
+}
+li {   
+    background:url(../assets/checkmark.svg) no-repeat;
+    background-size:contain;
+    margin-bottom:.7em;
+    padding:1em;
+}
+footer  {
+    background-color: #14416e;
+    padding: .8em 0;
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.wrapper {
+    width: 73.5%;
+    margin: auto;
+}
+#hamburger-icon {
+    display: none; 
+}
+#hamburger {
+    width: 3em;
+    float: right;
+    display: inline-block;  
+}
+#logo {
+    width: 7em;
+    padding-top: .5%;
+    display: inline-block;
+}
+.blue-button-style {
+    border: 1px #00afec solid;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: .7em;
+    list-style-type: none;
+    letter-spacing: .2em;
+    margin: 4em auto;
+    width: 20em;
+    color: #00afec;
+    display: block;    
+}
+.blue-button-style:hover {
+    background-color: rgb(219, 245, 252);
+}
+#splash {
+    background-color: #00afec;
+    padding: 1.4em 0 20em 0;
+}
+#greeting-pic img{    
+    float: none;
+    padding-top: 2%;
+    width: 49%;
+    min-width: 502px;  
+}
+#intro {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+#welcome-msg { 
+    padding-top: 1%;
+}
+#we-work-button {
+    margin: 2em auto 3.5em auto;
+    width: 17em;
+    text-align: center;
+}
+.black-button {
+    border: 1px black solid;
+    padding: 10px;
+    text-transform: uppercase; 
+    font-weight: 300;
+    font-size: .7em;
+    display: block;
+    letter-spacing: .2em;
+    color: black; 
+}
+.black-button:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+#badge {
+    display: inline-block;
+    float: right;
+}
+#login-button {
+    border: none;
+    float:left;
+    margin-top: .5em;
+}
+#first-block {
+    background-color: rgb(211, 238, 247);
+    padding: 4% 0;
+    margin-top: 22%;
+}
+#second-block {
+    background-color: rgb(2139, 226, 225);
+    padding: 4% 0;
+}
+#third-block {
+    background-color: rgb(255, 252, 222);
+    padding: 4% 0;
+}
+.column-1 {
+    float: left;
+    width: 48%;
+}
+#column-1-text {
+    padding-top: .25em;
+}
+.column-2 {
+    float: right;
+    width: 49%;   
+}
+#column-2-text {
+    padding-top: 0em;
+}
+#column-3-text {
+    padding-top: 0em;
+}
+.column-1 img {
+    padding: none;
+    float: left;
+    width: 100%;
+}
+.column-2 img {
+    float: right;
+    width: 100%;
+}
+.credit {
+    font-size: .4em;
+    letter-spacing: normal;
+    float: left;
+    line-height: 150%;
+}
+#test-credit {
+    font-size: .4em;
+    letter-spacing: normal;   
+}
+#we-work-pic {
+    float: left;
+    width: 41%;
+    padding-left: 7em;
+    display: block;
+    padding-top: 3%;
+}
+.quote {
+    font-size: 2em; 
+    line-height: 115%;
+    letter-spacing: -.03em;
+    padding-top: .4em;
+}
+#how-we-work-intro {
+    padding: 1.4em 0 11em 0;
+}
+#subtitle {
+    line-height: 150%;
+    font-size: 1.8em;
+    letter-spacing: -.02em;
+    color: #14416e;
+    text-align: left;
+}
+#the-process-intro {
+    background-color: rgb(255, 255, 255);
+    padding: 1.4em 0 2em 5em;
+}
+#process-chart {
+    float: right;
+    width: 24em;
+    min-width: 20em;
+    padding-top: 12em;
+    display: inline-block;
+}
+#losing {
+    width: 70%;
+    margin: auto;
+}
+.articles {
+    margin-top: 15%;
+}
+#bullet-points {
+    color: black;
+    float: left;
+    width: 50%;
+    padding-top: 20%;
+    display: inline-block;
+}
+#more-script {
+    width: 50%;
+    padding-top: 3em;
+    float: right;
+}
+#features {
+    background-color: rgba(0, 0, 0, .05);    
+    padding: 1.4em 1em 2em 0;
+}
+.content {
+    float: left;
+    text-align: center;
+    width: 10em;
+    height: 14em;
+    margin: 2.5%; 
+}
+#iconography {
+    width: 87%;
+    margin: auto;
+}
+.pic {
+    width: 70%; 
+    margin-right: auto;
+}
+
+.title { 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: .9em;
+    line-height: 130%;
+    color: #14416e;
+    text-transform: uppercase;
+    clear: both;
+}
+.desc {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 130%;
+    color: #14416e;
+}
+#steps {
+    position: absolute;
+}
+#devices {
+    width:98%;
+    margin-top: -7em;
+} 
+#process-breakdown {
+    width: 81.5%;
+    margin: auto;
+    padding-top: 17%;
+}
+#testimonials {
+    margin: auto;
+    width: 64%;
+    clear: both;
+    margin-top: 4em;
+}
+#testimonials p {
+    letter-spacing: normal;
+    line-height: 130%;
+    text-align: center;
+    color: black; 
+}
+#test-credit {
+    color: black;
+    font-size: .4em;
+}
+#footer-row1 {
+    float: left;
+    padding-top: .6em;
+    color: #00afec;
+    font-size: .8em;  
+}
+#footer-row2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .6em;
+    width: 22em;
+    text-align: center; 
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .8em;
+    list-style-type: none;
+}
+.footer-nav {
+    color: #00afec;
+}
+#secondary {
+    width: 1.6em;
+    float: right;
+}
+.footer-content {
+    width: 95%;
+    margin: auto;
+}
+
+/*THIS IS WHERE MY MEDIA QUERIES BEGIN*/
+
+@media screen and (max-width: 1140px) {
+    #welcome-msg {
+        padding-top: 0%;
+        width: 67%;
+        margin: auto;
+    }
+    #splash {
+        padding: 1.4% 0 31% 0;
+        min-height: 340px;
+    }
+    #first-block {
+        margin-top: 27%;
+    }
+}
+@media screen and (max-width: 976px) {
+    body {
+       font-size: 17.5px; 
+    }
+    #first-block {
+        margin-top: 15em;
+    }
+     #welcome-msg {
+        width: 623px;
+    }
+     #losing {
+        width: 643px;
+    }
+}
+@media screen and (max-width: 750px) {
+    body {
+       font-size: 15px; 
+    }
+    #welcome-msg {
+        width: 347px;
+    }
+   
+}
+@media screen and (max-width: 650px) {
+    #losing {
+        font-size: 13px;
+        width: 477px;
+    }
+
+}
+@media screen and (max-width: 550px) {
+    #losing {
+        width: 356px;
+        margin: auto;
+        font-size: 13.5px;
+    }
+    #losing h1 {
+        line-height: 100%;
+        width: 80%;
+        margin:10px auto;
+    }
+    #losing h4 {
+        font-weight: 200;
+        letter-spacing: .02em;
+    }
+    #greeting-pic img {
+        min-width: 389px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+
+
