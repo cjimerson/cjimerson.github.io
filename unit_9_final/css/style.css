@@ -1,0 +1,673 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,500,700,200);
+* { margin:0; padding:0; box-sizing:border-box; }
+
+body {
+	background-color: #ffffff;
+    font-size: 18.5px;
+}
+header {
+    background-color: #ffffff;
+    padding: 1em 0;
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+h1 {
+	font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: 3.1em;
+  	line-height: 130%;
+    color: #ffffff;
+    letter-spacing: -.03em;
+}
+h2 {
+    color: #14416e;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5em;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    line-height: 120%;
+    letter-spacing: -.2px;
+}
+h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1.3em;
+    line-height: 120%;
+    color: white;
+}
+h5 {
+    color: black;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    letter-spacing: .35em;
+    line-height: 170%;
+    text-transform: uppercase;
+}
+nav {
+    float: right;
+    width: 20em;
+}
+a {
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;   
+}
+label{
+  display:none;
+  padding:20px 0 20px 20px;
+}
+#toggle{
+  display:none;
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+  	font-weight: 300;
+  	font-size: .9em;
+  	line-height: 163%;
+}
+ul {
+    list-style-type:none;
+    padding-top: 1em;
+    color: #14416e;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: .20%;
+}
+li {   
+    background:url(../assets/checkmark.svg) no-repeat;
+    background-size:contain;
+    margin-bottom:.7em;
+    padding:1em;
+}
+footer  {
+    background-color: #14416e;
+    padding: .8em 0;
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+.wrapper {
+    width: 73.5%;
+    margin: auto;
+}
+#logo {
+    width: 7em;
+    padding-top: .5%;
+    display: inline-block;
+}
+.blue-button-style {
+    border: 1px #00afec solid;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 300;
+    font-size: .7em;
+    list-style-type: none;
+    letter-spacing: .2em;
+    margin: 4em auto;
+    width: 20em;
+    color: #00afec;
+    display: block;    
+}
+.blue-button-style:hover {
+    background-color: rgb(219, 245, 252);
+}
+#drop-down  {
+    display: none;
+}
+#splash {
+    background-color: #00afec;
+    padding: 1.4em 0 20em 0;
+    min-height: 22em;
+}
+#greeting-pic img{    
+    float: none;
+    padding-top: 2%;
+    width: 49%;
+    min-width: 27em;  
+}
+#intro {
+    position: absolute;
+    text-align: center;
+    margin: auto;
+    display: block;
+    width: 100%;
+}
+#welcome-msg { 
+    padding-top: 1%;
+}
+#we-work-button {
+    margin: 2em auto 3.5em auto;
+    width: 17em;
+    text-align: center;
+}
+.black-button {
+    border: 1px black solid;
+    padding: 10px;
+    text-transform: uppercase; 
+    font-weight: 300;
+    font-size: .7em;
+    display: block;
+    letter-spacing: .2em;
+    color: black; 
+}
+.black-button:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+#badge {
+    display: inline-block;
+    float: right;
+    margin-bottom: 2px;
+}
+#login-button {
+    border: none;
+    float:left;
+    margin-top: .5em;
+}
+#first-block {
+    background-color: rgb(211, 238, 247);
+    padding: 6.5% 0;
+    margin-top: 22%;
+    display: block;
+}
+#second-block {
+    background-color: rgb(2139, 226, 225);
+    padding: 6.5% 0;
+}
+#third-block {
+    background-color: rgb(255, 252, 222);
+    padding: 6.5% 0;
+}
+.column-2 {
+    float: right;
+    width: 39%; 
+    margin: 0 0 0 3%;  
+}
+#column-2-text {
+    padding-top: 0em;
+    width: 100%;
+    display: block;
+    float: none;
+    margin: 0;
+}
+#column-3-text {
+    padding-top: 0em;
+}
+.column-1 img {
+    float: left;
+    width: 44%;
+    padding-right: 2em;
+}
+.column-2 img {
+    float: right;
+    width: 100%;
+}
+.credit {
+    font-size: .4em;
+    letter-spacing: normal;
+    line-height: 150%;
+}
+#test-credit {
+    font-size: .4em;
+    letter-spacing: normal;   
+}
+#we-work-pic {
+    float: left;
+    width: 41%;
+    padding-left: 7em;
+    display: block;
+    padding-top: 3%;
+}
+.quote {
+    font-size: 1.8em; 
+    line-height: 115%;
+    letter-spacing: -.03em;
+    padding-top: .4em;
+}
+#how-we-work-intro {
+    padding: 1.4em 0 11em 0;
+    min-height: 12em;
+}
+#subtitle {
+    line-height: 150%;
+    font-size: 1.8em;
+    letter-spacing: -.02em;
+    color: #14416e;
+    text-align: left;
+}
+#the-process-intro {
+    background-color: rgb(255, 255, 255);
+    padding: 29% 0 4% 0;
+    width: 58em;
+    margin:auto;
+}
+#process-chart {
+    float: right;
+    width: 24em;
+    min-width: 20em;
+    display: inline-block;
+}
+#losing {
+    width: 70%;
+    margin: auto;
+}
+#bullet-points {
+    color: black;
+    float: left;
+    width: 57%;
+    padding-left: 5%;
+    display: inline-block;
+}
+#more-script {
+    width: 50%;
+    padding-top: 3em;
+    float: right;
+}
+#features {
+    background-color: rgba(0, 0, 0, .05);    
+    padding: 1.4em 1em 2em 0;
+}
+.content {
+    float: left;
+    text-align: center;
+    width: 10em;
+    height: 14em;
+    margin: 1.5em; 
+}
+#iconography {
+    width: 65em;
+    margin: auto;
+}
+.pic {
+    width: 70%; 
+    margin-right: auto;
+}
+
+.title { 
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: .9em;
+    line-height: 130%;
+    color: #14416e;
+    text-transform: uppercase;
+    clear: both;
+}
+.desc {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 300;
+    font-size: .9em;
+    line-height: 130%;
+    color: #14416e;
+}
+#steps {
+    position: absolute;
+}
+#devices {
+    width:98%;
+    margin-top: -7em;
+} 
+#process-breakdown {
+    width: 100%;
+}
+#testimonials {
+    margin: auto;
+    width: 64%;
+    clear: both;
+    margin-top: 4em;
+}
+#testimonials p {
+    letter-spacing: normal;
+    line-height: 130%;
+    text-align: center;
+    color: black; 
+}
+#test-credit {
+    color: black;
+    font-size: .4em;
+}
+#footer-row1 {
+    float: left;
+    padding-top: .6em;
+    color: #00afec;
+    font-size: .8em;  
+}
+#footer-row2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: .6em;
+    width: 22em;
+    text-align: center; 
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: .8em;
+    list-style-type: none;
+}
+.footer-nav {
+    color: #00afec;
+}
+#secondary {
+    width: 1.6em;
+    float: right;
+}
+.footer-content {
+    width: 95%;
+    margin: auto;
+}
+
+/*THIS IS WHERE MY MEDIA QUERIES BEGIN*/
+@media screen and (max-width: 1285px) {
+        #iconography {
+            width: 52em;
+        }
+        #testimonials {
+            width: 59%;
+        }
+        #we-work-pic {
+            padding-top: 0;
+        }
+        #devices {
+            margin-top: -5em;
+        }
+    }
+
+@media screen and (max-width: 1140px) {
+    #welcome-msg {
+        padding-top: 0%;
+        width: 67%;
+        margin: auto;
+    }
+    #splash {
+        padding: 1.4% 0 31% 0;
+        min-height: 20em;
+    }
+    #first-block {
+        margin-top: 27%;
+    }
+    #testimonials {
+        width: 62%;
+        min-width: 669px;
+    }
+    #the-process-intro {
+        width: 45em;
+        min-width: 45em;
+        padding-top: 26%;
+    }
+    #process-chart {
+        width: 19em;
+    }
+    #subtitle {
+        font-size: 1.4em;
+    }
+    ul {
+        font-size: 1em;
+    }
+    #bullet-points {
+        width: 55%;
+    }
+}
+@media screen and (max-width: 976px) {
+    body {
+        font-size: 17.5px; 
+    }
+    #first-block {
+        margin-top: 29%;
+    }
+    #welcome-msg {
+        width: 18em;
+    }
+    #losing {
+        width: 43em;
+    }
+    .column-2 {
+        float: none;
+        margin: 0;
+        width: 65%;
+        margin: auto;
+    }
+    #column-3-text {
+        padding-top: 4%;
+        clear: both;
+    }
+    .column-1 {
+        margin: auto;
+        width: 64%;
+    }
+    .quote {
+        font-size: 1.6em; 
+    }
+    #column-1-text {
+        padding-top: 4%;
+        clear: both;
+    }
+    .column-1 img {
+        float: none;
+        padding: 0;
+        width: 100%;
+    }
+    #column-2-text {
+        padding-top: 4%;
+        width: 64%;
+        display: block;
+        float: none;
+        margin: auto;
+    }
+    #iconography {
+        width: 39em;
+    }
+     #testimonials {
+        min-width: 636px;
+    }
+    #the-process-intro {
+        padding-top: 8em;
+    }
+    #how-we-work-intro{
+        min-height: 17em;  
+    } 
+}
+@media screen and (max-width: 750px) {
+    body {
+       font-size: 15px; 
+    }
+    #welcome-msg {
+        width: 12em;
+    }
+   #first-block {
+    margin-top: 16em;
+   }
+    #testimonials {
+        min-width: 530px;
+    }
+    #devices {
+        margin-top: -3.5em;
+    }
+    #we-work-pic {
+        padding-left: 3em;
+        width: 43%;
+    }
+}
+@media screen and (max-width: 650px) {
+    #losing {
+        font-size: 13px;
+        width: 37em;
+    }
+    #splash {
+        min-height: 19em;
+    }
+    #iconography {
+        width: 26em;
+    }
+    #testimonials {
+        min-width: 450px;
+    }
+    #footer-row2 {
+        margin-top: -17px;
+        padding-top: 3px;
+        text-align: left;
+        font-size: .74em;
+        clear: both;
+        font-weight: 500;
+        width: 55%;
+        display: block;
+        float: left;
+    }
+    #footer-row3 {
+        padding-top: 2%;
+        margin-top: -5%;
+        float: right;
+        clear: both;
+    }
+    #footer-row1 {
+        float: left;
+        font-size: .8em;
+    }
+    footer {
+        padding: .8em 0 1.3em 0;
+    }
+    #bullet-points {
+        float: none;
+        display: block;
+        width: 90%;
+        margin:auto;
+        padding-left: 0;
+    }
+    ul {
+        padding-left: 13%;
+    }
+    #subtitle {
+        text-align: center;
+    }
+     #process-chart {
+        float: none;
+        display: block;
+        margin:auto;   
+    }
+    #the-process-intro {
+        width: 100%;
+        margin: auto;
+        min-width: 0;
+        padding-top: 3em;
+        clear: both;
+    }
+    #process-breakdown {
+        width: 82%;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 550px) {
+    #losing {
+        width: 25em;
+        margin: auto;
+        font-size: 13.5px;
+    }
+    #losing h1 {
+        line-height: 100%;
+        width: 80%;
+        margin:10px auto;
+    }
+    #losing h4 {
+        font-weight: 200;
+        letter-spacing: .02em;
+    }
+    #greeting-pic img {
+        min-width: 27em;
+    }
+    #first-block {
+    margin-top: 21em;
+   }
+   .quote {
+        font-size: 1.4em; 
+    }
+    #testimonials {
+        min-width: 382px;
+    }
+    #devices {
+        margin-top: 0.5em;
+    }
+    #bullet-points {
+        width: 75%;
+        margin: auto;
+        min-width: 299px; 
+    }
+    #process-chart {
+        padding-right: 7%;
+    }
+    #process-breakdown {
+        margin:auto;
+    }  
+    ul {
+        padding-left: 5%;
+        font-size: .9em;
+    }
+    #subtitle {
+        text-align: center;
+        font-size: 1.2em;
+    }
+    #the-process-intro {
+        padding-top: 12em;
+        margin: auto;
+    }
+    #we-work-pic {
+        width: 81%;
+        float: none;
+        margin: auto;
+    }
+    nav{
+        display:none;
+    }
+  
+   /* nav a{
+        display:block;
+    }*/
+  /*#drop-down a {
+    display: block;
+  }*/
+    label{
+        display:block;
+        float: right;
+        padding: 0;
+    }
+    #toggle:checked + nav + #drop-down {
+        display:block;
+        clear:both;
+        width: 9em;
+    }
+   label img {
+        width: 3em;
+        padding-top: .1em;
+    }
+
+}
+@media screen and (max-width: 414px) {
+     #testimonials {
+        min-width: 253px;
+    }
+    #the-process-intro {
+        padding-top: 2em;
+    }
+}
+@media screen and (max-width: 320px) {
+    body {
+        font-size: 12px;
+    }
+    #iconography {
+        width: 13em;
+    }
+}
+
+
+
